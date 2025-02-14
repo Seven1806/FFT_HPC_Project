@@ -7,6 +7,7 @@ This project analyzes the performance of different FFT implementations on **CPU 
 hpc_project/ ├── repo/ (Git repository with source code & compiled executables) │ ├── build/ (Contains compiled executables) │ │ ├── fft_4speeds │ │ ├── fft_gpu │ │ ├── fft_parallel │ │ ├── fft_sequencial │ ├── fft_sequencial.c │ ├── fft_parallel.c │ ├── fft_gpu.cu │ ├── fft_4speeds_clean.cu │ ├── CMakeLists.txt │ ├── ... ├── docs/ │ ├── report.pdf (Project Report) │ ├── poster.pdf
 
 
+
 ---
 
 ## **🖥 Implementations**
@@ -46,7 +47,6 @@ cd repo/
 mkdir -p build && cd build
 cmake ..
 make -j$(nproc)
----
-# 🚀 Fast Fourier Transform (FFT) Performance Analysis
+
 
 
