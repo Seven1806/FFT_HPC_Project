@@ -47,13 +47,6 @@ mkdir -p build && cd build
 cmake ..
 make -j$(nproc)
 ---
+# 🚀 Fast Fourier Transform (FFT) Performance Analysis
 
-./build/fft_sequencial
-./build/fft_parallel
-./build/fft_gpu
-./build/fft_4speeds
 
-#📜 Assignment Submission
-Git Repository (repo/) → Contains source code & compiled executables.
-Documentation (docs/) → Includes report.pdf & poster.pdf.
-Build (build/) → Contains compiled applications via CMake.
