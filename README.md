@@ -48,5 +48,10 @@ mkdir -p build && cd build
 cmake ..
 make -j$(nproc)
 
+Run Executables
+./build/fft_sequencial
+./build/fft_parallel
+./build/fft_gpu
+./build/fft_4speeds
 
 
